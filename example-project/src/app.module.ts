@@ -1,7 +1,7 @@
 import {
   RateLimiterInterceptor,
   RateLimiterModule,
-} from 'nestjs-rate-limit';
+} from '@slava-ovchinnikov/nestjs-rate-limiter';
 
 import { APP_INTERCEPTOR } from '@nestjs/core';
 import { AppController } from './app.controller';
